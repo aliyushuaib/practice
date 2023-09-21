@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+}
+
+.content {
+  width: 30%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0, 5);
+  border-radius: 10px;
+}
+
+.form.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.form.title{
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.socal-media {
+  display: flex;
+  gap: 10px;
+}
+
+.username,   .password{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.username label,  .password label {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.username input:focus,
+.password input {
+  border: none;
+  background-color: #1e1e1e;
+  border: 1px solid goldenrod;
+  padding: 10px 0px;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.username input:focus,
+.password input:focus {
+  outline: 1px solid #0050a9;
+  border-color: #0050a9;
+  box-shadow: 1px 1px 5px #0050a9;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin: 20px 0px 20px 0px;
+  background-color: #0074e0;
+  color: #fff;
+  cursor🖕;
+  border: none;
+}
+
+.btw:hover{
+    background-color: #0050a9;
+}
+
+.forgot-password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.forgot-password label{
+    color: rgba(255, 255, 255, 0, 605);
+    font-size: rem;
+}
+
+.forgot-password a{
+    text-decoration: none;
+    color: blue;
+    transition: color, 5ms ease-in-out;
+}
+
+.forgot-password a:hover{
+    color: rgba(0, 0, 255, 0.);
+}

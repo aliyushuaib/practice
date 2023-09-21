@@ -18,10 +18,17 @@
       </div>
       <form actiom="#" class="login" ->
         <input type="email" placeholder="enter your email address" />
-        <botton>LOGIN</botton>
+        <button id="myButton" onclick="handleClick()">LOGIN</button>
         <p class="message">Not a member ?</p>
         <a href="index.html">create an account</a>
       </form>
     </div>
   </body>
+  <script>
+    function handleClick() {
+      let firstName = "Shuaibu";
+      let lastName = "Aliyu";
+      console.log(`${firstName} ${lastName}`);
+    }
+  </script>
 </html>

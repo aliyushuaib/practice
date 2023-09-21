@@ -1,0 +1,44 @@
+.bg-img {
+  /* the image used */
+  background-image: url("../../Desktop/ahmad_pic.jpeg");
+
+  min-height: 380px;
+
+  /* center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needednto position the navbar */
+  position: relative;
+}
+
+/*add a black background color to the top navigation*/
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* style the links inside the navigation bar*/
+.topnav {
+  float: left;
+  color: #f2f2f2;
+  /* text-align: center; */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  width: 400rem;
+  border-radius: 4px;
+}
+/* add a color to the active/current link*/
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
